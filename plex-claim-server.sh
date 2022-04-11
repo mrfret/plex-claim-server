@@ -37,7 +37,7 @@ if [ ! -e "${prefFile}" ]; then
 <?xml version="1.0" encoding="utf-8"?>
 <Preferences/>
 EOF
-  chown -R plex:plex "$(dirname "${prefFile}")"
+  chown -R abc:abc "$(dirname "${prefFile}")"
 fi
 
 # Setup Server's client identifier
